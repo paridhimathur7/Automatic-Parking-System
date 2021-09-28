@@ -24,7 +24,8 @@ java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main input_file.tx
 
 Input(in file):
 
-```sh
+```
+
 Create_parking_lot 6
 
 Park KA-01-HH-1234 driver_age 21
@@ -42,6 +43,7 @@ Leave 2
 Park HR-29-TG-3098 driver_age 39
 
 Vehicle_registration_number_for_driver_of_age 18
+
 ```
 
 Output (to console, newline after every output):
