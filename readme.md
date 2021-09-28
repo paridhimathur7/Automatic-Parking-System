@@ -20,8 +20,7 @@ We get the input by reading input.txt directly (you’ll have to create it in yo
 
 To run the program:
 
-Enter the command from the input_file line by line or run in shell :
-```java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main input_file.txt``` to fetch the input from input file.
+Run javac Main.java from the command line
 
 **Input(in file):**
 
@@ -145,15 +144,7 @@ Vehicle_registration_number_for_driver_of_age 18
 
 #Project Requirements
 
-replit.com.
-
-#Running the project
-
-From the shell, run this command -
-```
-java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main input_file.txt  
-
-```
+Run this program from replit.com using this link : https://replit.com/@paridhimathur7/Automatic-Parking-System
 
 
 
