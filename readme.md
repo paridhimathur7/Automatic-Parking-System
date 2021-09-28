@@ -1,4 +1,4 @@
-#Problem Statement 
+**#Problem Statement** 
 
 We own a parking lot that can hold up to ‘n’ cars at any given point in time. Each slot is given a number starting at one increasing with increasing distance from the entry point in steps of one. We want to create an automated ticketing system that allows our customers to use our parking lot without human intervention.
 
@@ -20,7 +20,8 @@ We get the input by reading input.txt directly (you’ll have to create it in yo
 
 To run the program:
 
-java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main input_file.txt
+Enter the command from the input_file line by line or run in shell :
+```java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main input_file.txt``` to fetch the input from input file.
 
 **Input(in file):**
 
@@ -65,3 +66,94 @@ Slot number 2 vacated, the car with vehicle registration number "PB-01-HH-1234" 
 Car with vehicle registration number "HR-29-TG-3098" has been parked at slot number 2
 
 ```
+Assuming a parking lot with 6 slots, the following commands should be run in sequence by
+
+typing them in at a prompt and should produce output as described below the command:
+
+**Input:**
+```
+Create_parking_lot 6
+```
+**Output:**
+```
+Created parking of 6 slots
+```
+**Input:**
+```
+Park KA-01-HH-1234 driver_age 21
+```
+**Output:**
+```
+Car with vehicle registration number "KA-01-HH-1234" has been parked at slot number 1
+```
+**Input:**
+```
+Park PB-01-HH-1234 driver_age 21
+```
+**Output:**
+```
+Car with vehicle registration number "PB-01-HH-1234" has been parked at slot number 2
+```
+**Input:**
+```
+Slot_numbers_for_driver_of_age 21
+```
+**Output:**
+```
+1,2
+```
+**Input:**
+```
+Park PB-01-TG-2341 driver_age 40
+```
+**Output:**
+```
+Car with vehicle registration number "PB-01-TG-2341" has been parked at slot number 3
+```
+**Input:**
+```
+Slot_number_for_car_with_number PB-01-HH-1234
+```
+**Output:**
+```
+2
+```
+**Input:**
+```
+Leave 2
+```
+**Output:**
+```
+Slot number 2 vacated, the car with vehicle registration number "PB-01-HH-1234" left the space, the driver of the car was of age 21
+```
+**Input:**
+```
+Park HR-29-TG-3098 driver_age 39
+```
+**Output:**
+```
+Car with vehicle registration number "HR-29-TG-3098" has been parked at slot number 2
+```
+**Input:**
+```
+Vehicle_registration_number_for_driver_of_age 18
+```
+**Output:**
+```
+   (BLANK)
+```
+
+#Project Requirements
+
+replit.com.
+
+#Running the project
+
+From the shell, run this command -
+```
+java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main input_file.txt  
+
+```
+
+
+
