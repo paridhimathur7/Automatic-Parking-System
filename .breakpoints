@@ -1,0 +1,32 @@
+{
+  "files": {
+    "InputFromUser.java": [
+      {
+        "id": "a4955ef5-cd59-45a9-8206-0f2fcb32e492",
+        "line": 11,
+        "version": 330,
+        "index": 232
+      },
+      {
+        "id": "398fd27f-d27f-46fe-b09f-06136e94c2b7",
+        "line": 17,
+        "version": 330,
+        "index": 467
+      }
+    ],
+    "ParkingProcedures.java": [
+      {
+        "id": "77602dc2-6d88-4a0d-b2b4-1d88712ef09b",
+        "line": 40,
+        "version": 626,
+        "index": 1076
+      },
+      {
+        "id": "10acada1-b86e-41b5-af3a-edddd8c8653c",
+        "line": 41,
+        "version": 626,
+        "index": 1144
+      }
+    ]
+  }
+}
