@@ -23,6 +23,7 @@ To run the program:
 java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* Main input_file.txt
 
 Input(in file):
+
 ```sh
 Create_parking_lot 6
 
